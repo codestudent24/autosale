@@ -1,0 +1,60 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  width: fit-content;
+  margin: 20px auto 60px;
+  padding: 20px;
+  border: 1px solid #ECECEC;
+  border-radius: 20px;
+  background-color: #262626;
+  z-index: 1;
+
+  h1 {
+    text-align: center;
+  }
+
+  > div {
+    margin: 0 auto 20px;
+    width: 100%;
+
+    h3 {
+      color: #FFD11A;
+      margin: 0 0 5px;
+    }
+
+    textarea {
+      display: inline-block;
+      width: 360px;
+      padding: 6px 10px;
+      margin: 0 auto;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+    }
+  }
+
+  .input-name {
+    display: inline-block;
+    width: 360px;
+    padding: 6px 10px;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+  }
+
+  > button {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 6px 10px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFD11A;
+    color: #141414;
+  }
+}
